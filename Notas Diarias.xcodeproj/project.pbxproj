@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		AE484BE928915F950090A29A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE484BE828915F950090A29A /* AppDelegate.swift */; };
-		AE484BEB28915F950090A29A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE484BEA28915F950090A29A /* ViewController.swift */; };
+		AE484BEB28915F950090A29A /* ListNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE484BEA28915F950090A29A /* ListNotesTableViewController.swift */; };
 		AE484BEE28915F950090A29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE484BEC28915F950090A29A /* Main.storyboard */; };
 		AE484BF128915F950090A29A /* Notas_Diarias.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE484BEF28915F950090A29A /* Notas_Diarias.xcdatamodeld */; };
 		AE484BF328915F9C0090A29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE484BF228915F9C0090A29A /* Assets.xcassets */; };
 		AE484BF628915F9C0090A29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE484BF428915F9C0090A29A /* LaunchScreen.storyboard */; };
+		AE484BFE2891A7FF0090A29A /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE484BFD2891A7FF0090A29A /* NoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE484BE528915F950090A29A /* Notas Diarias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notas Diarias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE484BE828915F950090A29A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE484BEA28915F950090A29A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE484BEA28915F950090A29A /* ListNotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewController.swift; sourceTree = "<group>"; };
 		AE484BED28915F950090A29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE484BF028915F950090A29A /* Notas_Diarias.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notas_Diarias.xcdatamodel; sourceTree = "<group>"; };
 		AE484BF228915F9C0090A29A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE484BF528915F9C0090A29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE484BF728915F9C0090A29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE484BFD2891A7FF0090A29A /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				AE484BE828915F950090A29A /* AppDelegate.swift */,
-				AE484BEA28915F950090A29A /* ViewController.swift */,
+				AE484BEA28915F950090A29A /* ListNotesTableViewController.swift */,
+				AE484BFD2891A7FF0090A29A /* NoteViewController.swift */,
 				AE484BEC28915F950090A29A /* Main.storyboard */,
 				AE484BF228915F9C0090A29A /* Assets.xcassets */,
 				AE484BF428915F9C0090A29A /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE484BFE2891A7FF0090A29A /* NoteViewController.swift in Sources */,
 				AE484BF128915F950090A29A /* Notas_Diarias.xcdatamodeld in Sources */,
-				AE484BEB28915F950090A29A /* ViewController.swift in Sources */,
+				AE484BEB28915F950090A29A /* ListNotesTableViewController.swift in Sources */,
 				AE484BE928915F950090A29A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
